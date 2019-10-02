@@ -8,12 +8,17 @@
 
 #ifndef structures_h
 #define structures_h
+#include <stdio.h>//look here for duplicate symbols
+#include <string.h>//look here for duplicate symbols
+#include <ctype.h> //look here for duplicate symbols
 struct numbers {
     char answer;
     int truth;
     int score;
-    char bullets[4];
-    char questions[4]; 
+    int entry;
+    int entrySize; //reduces size of current array
+    int right;
+    int i; 
 } g;
 
 #endif /* structures_h */

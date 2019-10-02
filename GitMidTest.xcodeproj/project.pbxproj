@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				CA5ADEFB2334287B0094EFDA /* main.c */,
-				CA2E35A82339704300DBB0BE /* structures.h */,
 				CA682B1023358A6C00E30C5A /* var.h */,
+				CA2E35A82339704300DBB0BE /* structures.h */,
 				CA88991923357D5D003938F9 /* GQ1.c */,
 				CA88991B23357D62003938F9 /* gitQuestions */,
 			);
