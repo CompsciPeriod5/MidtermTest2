@@ -8,6 +8,12 @@
 
 #include <stdio.h>
 #include "Questions.h"
+#include "questionDriver.h"
+
+struct values {
+    int score, questions;
+}; //for feedback
+
 int main() {
     
     // protoype for internal functions
