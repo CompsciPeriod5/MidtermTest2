@@ -9,7 +9,7 @@
 #include "structures.h"
 #include <stdlib.h>
 #include <time.h>
-int questionOne(void){
+void questionOne(void){
     
     //printf("A. Creating an account \nB. Adding an existing remote \nC. Pushing \nD. Commiting\n\n");
     //^ changing to random question arrangement 
@@ -85,5 +85,4 @@ int questionOne(void){
         printf("Your score is still: %d\n\n", g.score);
         
     }
-    return 0;
 }

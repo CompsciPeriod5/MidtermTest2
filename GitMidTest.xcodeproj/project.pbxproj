@@ -32,7 +32,7 @@
 		030FB1F823469BBA000EBC3D /* structQuestion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structQuestion.c; sourceTree = "<group>"; };
 		030FB1F923469BBA000EBC3D /* productOwnerQuestion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productOwnerQuestion.c; sourceTree = "<group>"; };
 		030FB1FA23469BBA000EBC3D /* Questions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Questions.h; sourceTree = "<group>"; };
-		030FB1FF23469D91000EBC3D /* cfop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cfop.c; path = GitMidTest/cfop.c; sourceTree = SOURCE_ROOT; };
+		030FB1FF23469D91000EBC3D /* cfop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cfop.c; path = GitMidTest/FirstQuestions/cfop.c; sourceTree = SOURCE_ROOT; };
 		CA2E35A82339704300DBB0BE /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
 		CA5ADEF82334287B0094EFDA /* GitMidTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitMidTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5ADEFB2334287B0094EFDA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -53,6 +53,13 @@
 		030FB1FE23469BD0000EBC3D /* ProjectQs */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = ProjectQs;
+			sourceTree = "<group>";
+		};
+		030FB2012346A624000EBC3D /* FirstQuestions */ = {
+			isa = PBXGroup;
+			children = (
 				030FB1FA23469BBA000EBC3D /* Questions.h */,
 				CA2E35A82339704300DBB0BE /* structures.h */,
 				030FB1FF23469D91000EBC3D /* cfop.c */,
@@ -61,13 +68,15 @@
 				030FB1F923469BBA000EBC3D /* productOwnerQuestion.c */,
 				030FB1F823469BBA000EBC3D /* structQuestion.c */,
 			);
-			path = ProjectQs;
+			path = FirstQuestions;
 			sourceTree = "<group>";
 		};
 		CA5ADEEF2334287B0094EFDA = {
 			isa = PBXGroup;
 			children = (
 				CA5ADEFA2334287B0094EFDA /* GitMidTest */,
+				030FB1FE23469BD0000EBC3D /* ProjectQs */,
+				030FB2012346A624000EBC3D /* FirstQuestions */,
 				CA5ADEF92334287B0094EFDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				CA5ADEFB2334287B0094EFDA /* main.c */,
-				030FB1FE23469BD0000EBC3D /* ProjectQs */,
 			);
 			path = GitMidTest;
 			sourceTree = "<group>";

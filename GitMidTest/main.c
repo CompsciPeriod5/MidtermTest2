@@ -25,11 +25,11 @@ int main() {
             printf("----------------------------------------- \n");
             printf(" |                MENU                 |  \n");
             printf("----------------------------------------- \n");
-            printf("| [1] Structure Question                |\n");
-            printf("| [2] Control Flow Operator Question    |\n");
-            printf("| [3] Data Types Question               |\n");
-            printf("| [4] Product Owner Question            |\n");
-            printf("| [5] GitHub Question                   |\n");
+            printf("| [1] Fundamental Data Types            |\n");
+            printf("| [2] Binary                            |\n");
+            printf("| [3] Operators                         |\n");
+            printf("| [4] Random Logic                      |\n");
+            printf("| [5] Comparisons                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
@@ -48,20 +48,15 @@ int main() {
             
             switch (choice) {
                 case 1:
-                    structQuestion();
                     break;
                 case 2:
-                    cfop();
-                    cfop2();
                     break;
                 case 3:
-                    datatypesQuestions();
                     break;
                 case 4:
-                    questionPO();
                     break;
                 case 5:
-                    questionOne();
+                    break;
                 case 0:
                     printf("Quitting...\n");
                     return 0;
