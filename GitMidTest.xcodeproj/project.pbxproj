@@ -42,6 +42,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030FB1F423469A5C000EBC3D /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
 		CA5ADEEF2334287B0094EFDA = {
 			isa = PBXGroup;
 			children = (
@@ -65,16 +72,9 @@
 				CA682B1023358A6C00E30C5A /* var.h */,
 				CA2E35A82339704300DBB0BE /* structures.h */,
 				CA88991923357D5D003938F9 /* GQ1.c */,
-				CA88991B23357D62003938F9 /* gitQuestions */,
+				030FB1F423469A5C000EBC3D /* Questions */,
 			);
 			path = GitMidTest;
-			sourceTree = "<group>";
-		};
-		CA88991B23357D62003938F9 /* gitQuestions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = gitQuestions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
