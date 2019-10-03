@@ -8,9 +8,11 @@
 
 #ifndef structures_h
 #define structures_h
-#include <stdio.h>//look here for duplicate symbols
-#include <string.h>//look here for duplicate symbols
-#include <ctype.h> //look here for duplicate symbols
+
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
 struct numbers {
     char answer;
     int truth;

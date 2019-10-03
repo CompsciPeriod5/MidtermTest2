@@ -7,8 +7,7 @@
 //
 
 #include <stdio.h>
-#include "var.h"
-#include "structures.h"
+#include "Questions.h"
 int main() {
     
     // protoype for internal functions
@@ -30,7 +29,7 @@ int main() {
             printf("| [2] Control Flow Operator Question    |\n");
             printf("| [3] Data Types Question               |\n");
             printf("| [4] Product Owner Question            |\n");
-            printf("|                                       |\n");
+            printf("| [5] GitHub Question                   |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
@@ -49,14 +48,20 @@ int main() {
             
             switch (choice) {
                 case 1:
-                    questionOne();
+                    structQuestion();
                     break;
                 case 2:
+                    cfop();
+                    cfop2();
                     break;
                 case 3:
+                    datatypesQuestions();
                     break;
                 case 4:
+                    questionPO();
                     break;
+                case 5:
+                    questionOne();
                 case 0:
                     printf("Quitting...\n");
                     return 0;

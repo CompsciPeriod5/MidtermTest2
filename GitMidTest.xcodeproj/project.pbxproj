@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030FB1FB23469BBA000EBC3D /* structQuestion.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F823469BBA000EBC3D /* structQuestion.c */; };
+		030FB1FC23469BBA000EBC3D /* datatypesQuestions.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F723469BBA000EBC3D /* datatypesQuestions.c */; };
+		030FB1FD23469BBA000EBC3D /* productOwnerQuestion.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F923469BBA000EBC3D /* productOwnerQuestion.c */; };
+		030FB20023469D91000EBC3D /* cfop.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1FF23469D91000EBC3D /* cfop.c */; };
 		CA5ADEFC2334287B0094EFDA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA5ADEFB2334287B0094EFDA /* main.c */; };
 		CA88991A23357D5D003938F9 /* GQ1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88991923357D5D003938F9 /* GQ1.c */; };
 /* End PBXBuildFile section */
@@ -24,10 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		030FB1F723469BBA000EBC3D /* datatypesQuestions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypesQuestions.c; sourceTree = "<group>"; };
+		030FB1F823469BBA000EBC3D /* structQuestion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structQuestion.c; sourceTree = "<group>"; };
+		030FB1F923469BBA000EBC3D /* productOwnerQuestion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productOwnerQuestion.c; sourceTree = "<group>"; };
+		030FB1FA23469BBA000EBC3D /* Questions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Questions.h; sourceTree = "<group>"; };
+		030FB1FF23469D91000EBC3D /* cfop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cfop.c; path = GitMidTest/cfop.c; sourceTree = SOURCE_ROOT; };
 		CA2E35A82339704300DBB0BE /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
 		CA5ADEF82334287B0094EFDA /* GitMidTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitMidTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5ADEFB2334287B0094EFDA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		CA682B1023358A6C00E30C5A /* var.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = var.h; sourceTree = "<group>"; };
 		CA88991923357D5D003938F9 /* GQ1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GQ1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,11 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		030FB1F423469A5C000EBC3D /* Questions */ = {
+		030FB1FE23469BD0000EBC3D /* ProjectQs */ = {
 			isa = PBXGroup;
 			children = (
+				030FB1FA23469BBA000EBC3D /* Questions.h */,
+				CA2E35A82339704300DBB0BE /* structures.h */,
+				030FB1FF23469D91000EBC3D /* cfop.c */,
+				CA88991923357D5D003938F9 /* GQ1.c */,
+				030FB1F723469BBA000EBC3D /* datatypesQuestions.c */,
+				030FB1F923469BBA000EBC3D /* productOwnerQuestion.c */,
+				030FB1F823469BBA000EBC3D /* structQuestion.c */,
 			);
-			path = Questions;
+			path = ProjectQs;
 			sourceTree = "<group>";
 		};
 		CA5ADEEF2334287B0094EFDA = {
@@ -69,10 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				CA5ADEFB2334287B0094EFDA /* main.c */,
-				CA682B1023358A6C00E30C5A /* var.h */,
-				CA2E35A82339704300DBB0BE /* structures.h */,
-				CA88991923357D5D003938F9 /* GQ1.c */,
-				030FB1F423469A5C000EBC3D /* Questions */,
+				030FB1FE23469BD0000EBC3D /* ProjectQs */,
 			);
 			path = GitMidTest;
 			sourceTree = "<group>";
@@ -134,7 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5ADEFC2334287B0094EFDA /* main.c in Sources */,
+				030FB1FB23469BBA000EBC3D /* structQuestion.c in Sources */,
 				CA88991A23357D5D003938F9 /* GQ1.c in Sources */,
+				030FB20023469D91000EBC3D /* cfop.c in Sources */,
+				030FB1FC23469BBA000EBC3D /* datatypesQuestions.c in Sources */,
+				030FB1FD23469BBA000EBC3D /* productOwnerQuestion.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
