@@ -13,6 +13,7 @@
 		030FB20023469D91000EBC3D /* cfop.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1FF23469D91000EBC3D /* cfop.c */; };
 		CA5ADEFC2334287B0094EFDA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA5ADEFB2334287B0094EFDA /* main.c */; };
 		CA88991A23357D5D003938F9 /* GQ1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88991923357D5D003938F9 /* GQ1.c */; };
+		CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */ = {isa = PBXBuildFile; fileRef = CD25EFAE2346A28100D639F7 /* questionDriver.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		CA5ADEF82334287B0094EFDA /* GitMidTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitMidTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5ADEFB2334287B0094EFDA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		CA88991923357D5D003938F9 /* GQ1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GQ1.c; sourceTree = "<group>"; };
+		CD25EFAD2346A28100D639F7 /* questionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = questionDriver.h; sourceTree = "<group>"; };
+		CD25EFAE2346A28100D639F7 /* questionDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = questionDriver.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				CA5ADEFB2334287B0094EFDA /* main.c */,
+				CD25EFAD2346A28100D639F7 /* questionDriver.h */,
+				CD25EFAE2346A28100D639F7 /* questionDriver.c */,
 				030FB1FE23469BD0000EBC3D /* ProjectQs */,
 			);
 			path = GitMidTest;
@@ -147,6 +152,7 @@
 			files = (
 				CA5ADEFC2334287B0094EFDA /* main.c in Sources */,
 				030FB1FB23469BBA000EBC3D /* structQuestion.c in Sources */,
+				CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */,
 				CA88991A23357D5D003938F9 /* GQ1.c in Sources */,
 				030FB20023469D91000EBC3D /* cfop.c in Sources */,
 				030FB1FC23469BBA000EBC3D /* datatypesQuestions.c in Sources */,
