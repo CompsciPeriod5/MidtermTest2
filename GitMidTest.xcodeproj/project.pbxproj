@@ -67,7 +67,6 @@
 				CA2E35A82339704300DBB0BE /* structures.h */,
 				030FB1FF23469D91000EBC3D /* cfop.c */,
 				CA88991923357D5D003938F9 /* GQ1.c */,
-				030FB1F723469BBA000EBC3D /* datatypesQuestions.c */,
 				030FB1F923469BBA000EBC3D /* productOwnerQuestion.c */,
 				030FB1F823469BBA000EBC3D /* structQuestion.c */,
 			);
@@ -98,7 +97,7 @@
 				CA5ADEFB2334287B0094EFDA /* main.c */,
 				CD25EFAD2346A28100D639F7 /* questionDriver.h */,
 				CD25EFAE2346A28100D639F7 /* questionDriver.c */,
-				030FB1FE23469BD0000EBC3D /* ProjectQs */,
+				030FB1F723469BBA000EBC3D /* datatypesQuestions.c */,
 			);
 			path = GitMidTest;
 			sourceTree = "<group>";
