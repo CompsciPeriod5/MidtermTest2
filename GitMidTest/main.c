@@ -10,16 +10,13 @@
 #include "Questions.h"
 #include "questionDriver.h"
 
-struct values {
-    int score, questions;
-}; //for feedback
-
 int main() {
     
     // protoype for internal functions
     void prepareConsole(void);
     void intromessage(void);
     int choice;
+    struct values dTypes; dTypes.score = 0; dTypes.questions = 0; //data types score and questions
         // start with fresh console
         prepareConsole();
         
@@ -31,7 +28,7 @@ int main() {
             printf("----------------------------------------- \n");
             printf(" |                MENU                 |  \n");
             printf("----------------------------------------- \n");
-            printf("| [1] Fundamental Data Types            |\n");
+            printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
             printf("| [2] Binary                            |\n");
             printf("| [3] Operators                         |\n");
             printf("| [4] Random Logic                      |\n");
@@ -54,6 +51,7 @@ int main() {
             
             switch (choice) {
                 case 1:
+                    dTypes = qDriver(5);
                     break;
                 case 2:
                     break;

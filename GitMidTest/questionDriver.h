@@ -11,6 +11,10 @@
 
 #include <stdio.h>
 
+struct values {
+    int score, questions;
+}; //for feedback
+
 struct values qDriver (int section);
 
 #endif /* questionDriver_h */
