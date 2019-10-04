@@ -9,7 +9,8 @@
 
 #include <unistd.h>
 #include <stdio.h>
-void datatypesQuestions()
+int score = 0;
+int datatypesQuestions()
 {
     char answer1;
     printf("\n\n");
@@ -29,6 +30,7 @@ void datatypesQuestions()
     {
         //Outputs the results if correct
         printf("\nCorrect! :)\n");
+        score++;
     }else{
         //Output result for wrong answer
         printf("\nIncorrect :(\n");
@@ -51,10 +53,12 @@ void datatypesQuestions()
     {
         //Outputs the result if correct
         printf("\nCorrect! :)\n");
+        score++;
+        return score;
     }else{
         //Output result for wrong answer
         printf("\nIncorrect :(\n");
+        return score;
     }
-    usleep(1000000);
 }
 
