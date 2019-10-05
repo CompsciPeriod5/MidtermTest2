@@ -9,13 +9,11 @@
 #ifndef Questions_h
 #define Questions_h
 
-
-
-void datatypesQuestions(void);
-void questionPO(void);
-void cfop(void);
-void cfop2(void);
-void structQuestion(void);
-int questionOne(void);  
+int datatypesQ(void);
+//void cfop(void);
+//void cfop2(void);
+int structQ(void);
+int githubQ(void);
+int loopQ(void);
 
 #endif /* Questions_h */

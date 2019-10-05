@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "Questions.h"
+#include "questions.h"
 #include "questionDriver.h"
 
 int main() {
@@ -33,9 +33,9 @@ int main() {
             printf("| [3] Operators                         |\n");
             printf("| [4] Random Logic                      |\n");
             printf("| [5] Comparisons                       |\n");
-            printf("|                                       |\n");
-            printf("|                                       |\n");
-            printf("|                                       |\n");
+            printf("| [6] GitHub                            |\n");
+            printf("| [7] Structures                        |\n");
+            printf("| [8] Loop                              |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
@@ -60,6 +60,15 @@ int main() {
                 case 4:
                     break;
                 case 5:
+                    break;
+                case 6:
+                    dTypes = qDriver(6);
+                    break;
+                case 7:
+                    dTypes = qDriver(7);
+                    break;
+                case 8:
+                    dTypes = qDriver(8);
                     break;
                 case 0:
                     printf("Quitting...\n");
