@@ -55,7 +55,7 @@ int main() {
             
             switch (choice) { //remember, in the question driver, you need to have the section number first (outlined in the driver file) and the number of questions
                 case 1:
-                    dTypes = qDriver(1, 1); //defaulted to 1, change according to # of q's
+                    dTypes = qDriver(1, 2); //defaulted to 1, change according to # of q's
                     break;
                 case 2:
                     dTypes = qDriver(2, 1);
