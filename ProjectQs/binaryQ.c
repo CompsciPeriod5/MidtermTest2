@@ -11,6 +11,9 @@
 
 int binaryQ(void){
     int score = 0;
+    
+    printf("\n\n Hello! This is the Binary Multiple Choice Test.\n There are 3 questions, good luck!\n\n");
+    
     int input, endOrNo = 0, endOrNo2 = 0, endOrNo3 = 0, binaryAns1, input2, binaryAns2, input3, binaryAns3;
     
     while (endOrNo == 0) {
@@ -21,49 +24,54 @@ int binaryQ(void){
             switch(input) {
                 case 1:
                     binaryAns1 = 1;
-                    printf("Correct!\n");
+                    printf("Correct! Loading Next Question.\n");
                     score++;
                     endOrNo = 1;
                     break;
+                    
                 default:
                     printf("Wrong\n");
+                    
+                    while (endOrNo2 == 0) {
+                        binaryAns2 = 0;
+                        printf("What is 011010 – 1111?\n[1] 001001\n[2] 01010\n[3] 01011\n[4] 0000\n");
+                        while (binaryAns2 == 0) {
+                            scanf("%d", &input2);
+                            switch(input2) {
+                                case 3:
+                                    binaryAns2 = 3;
+                                    printf("Correct! Loading Next Question.\n");
+                                    score++;
+                                    endOrNo2 = 1;
+                                    break;
+                                    
+                                default:
+                                    printf("Wrong\n");
+                                    
+                                    while (endOrNo3 == 0) {
+                                        binaryAns3 = 0;
+                                        printf("What numeral system is binary based on?\n[1] Roman\n[2] Base-2\n[3] Hex\n[4] 5G\n");
+                                        while (binaryAns3 == 0) {
+                                            scanf("%d", &input3);
+                                            switch(input3) {
+                                                case 2:
+                                                    binaryAns2 = 2;
+                                                    printf("Thank you for taking the test! Have a nice Day!\n");
+                                                    endOrNo3 = 1;
+                                                    score++;
+                                                    break;
+                                                    
+                                                default:
+                                                    printf("Wrong\n");
+                                                    break;
+                                            }
+                                        }
+                                    }
+                            }
+                        }
+                    }
             }
         }
     }
-    while (endOrNo2 == 0) {
-        binaryAns2 = 0;
-        printf("What is 011010 – 1111?\n[1] 001001\n[2] 01010\n[3] 01011\n[4] 0000\n");
-        while (binaryAns2 == 0) {
-            scanf("%d", &input2);
-            switch(input2) {
-                case 3:
-                    binaryAns2 = 3;
-                    printf("Correct!\n");
-                    score++;
-                    endOrNo2 = 1;
-                    break;
-                default:
-                    printf("Wrong\n");
-                        }
-                    }
-                }
-                                    
-    while (endOrNo3 == 0) {
-        binaryAns3 = 0;
-        printf("What numeral system is binary based on?\n[1] Roman\n[2] Base-2\n[3] Hex\n[4] 5G\n");
-        while (binaryAns3 == 0) {
-        scanf("%d", &input3);
-        switch(input3) {
-            case 2:
-                binaryAns2 = 2;
-                endOrNo3 = 1;
-                score++;
-                break;
-            default:
-                printf("Wrong\n");
-                break;
-                                              }
-                                           }
-                                        }
     return score;
 }
