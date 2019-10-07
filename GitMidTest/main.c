@@ -30,13 +30,10 @@ int main() {
             printf("----------------------------------------- \n");
             printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
             printf("| [2] Binary                            |\n");
-            printf("| [3] Operators                         |\n");
-            printf("| [4] Random Logic                      |\n");
-            printf("| [5] Comparisons                       |\n");
-            printf("| [6] GitHub                            |\n");
-            printf("| [7] Structures                        |\n");
-            printf("| [8] Loop                              |\n");
-            printf("|                                       |\n");
+            printf("| [3] Random Logic                      |\n");
+            printf("| [4] GitHub                            |\n");
+            printf("| [5] Structures                        |\n");
+            printf("| [6] Logic                             |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");

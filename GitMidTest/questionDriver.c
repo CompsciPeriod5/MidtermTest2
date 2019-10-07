@@ -18,24 +18,15 @@ struct values qDriver (int section, int questions) {
             returnedVal.score = binaryQ();
             break;
         case 3:
-            //returnedVal.score = operatorsQ();
-            break;
-        case 4:
             returnedVal.score = logicQ();
             break;
-        case 5:
-            //returnedVal.score = comparisonsQ();
-            break;
-        case 6:
+        case 4:
             returnedVal.score = githubQ();
             break;
-        case 7:
+        case 5:
             returnedVal.score = structuresQ();
             break;
-        case 8:
-            //returnedVal.score = loopQ();
-            break;
-        case 9:
+        case 6:
             returnedVal.score = expressionsQ();
             break;
     }
