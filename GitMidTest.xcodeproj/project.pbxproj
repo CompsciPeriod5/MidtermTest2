@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		030FB1FB23469BBA000EBC3D /* structQs.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F823469BBA000EBC3D /* structQs.c */; };
-		030FB1FC23469BBA000EBC3D /* datatypesQs.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F723469BBA000EBC3D /* datatypesQs.c */; };
+		030FB1FC23469BBA000EBC3D /* datatypesQ.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F723469BBA000EBC3D /* datatypesQ.c */; };
 		030FB1FD23469BBA000EBC3D /* productOwnerQs.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F923469BBA000EBC3D /* productOwnerQs.c */; };
 		CA5ADEFC2334287B0094EFDA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA5ADEFB2334287B0094EFDA /* main.c */; };
 		CA88991A23357D5D003938F9 /* githubQs.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88991923357D5D003938F9 /* githubQs.c */; };
 		CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */ = {isa = PBXBuildFile; fileRef = CD25EFAE2346A28100D639F7 /* questionDriver.c */; };
-		FA660391234BE25C00BE2BA6 /* expersionQs.c in Sources */ = {isa = PBXBuildFile; fileRef = FA660390234BE25C00BE2BA6 /* expersionQs.c */; };
+		FA660391234BE25C00BE2BA6 /* expressionsQ.c in Sources */ = {isa = PBXBuildFile; fileRef = FA660390234BE25C00BE2BA6 /* expressionsQ.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		030FB1F723469BBA000EBC3D /* datatypesQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypesQs.c; sourceTree = "<group>"; };
+		030FB1F723469BBA000EBC3D /* datatypesQ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypesQ.c; sourceTree = "<group>"; };
 		030FB1F823469BBA000EBC3D /* structQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structQs.c; sourceTree = "<group>"; };
 		030FB1F923469BBA000EBC3D /* productOwnerQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productOwnerQs.c; sourceTree = "<group>"; };
 		030FB1FA23469BBA000EBC3D /* questions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = questions.h; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		CA88991923357D5D003938F9 /* githubQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = githubQs.c; sourceTree = "<group>"; };
 		CD25EFAD2346A28100D639F7 /* questionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = questionDriver.h; sourceTree = "<group>"; };
 		CD25EFAE2346A28100D639F7 /* questionDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = questionDriver.c; sourceTree = "<group>"; };
-		FA660390234BE25C00BE2BA6 /* expersionQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = expersionQs.c; sourceTree = "<group>"; };
+		FA660390234BE25C00BE2BA6 /* expressionsQ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = expressionsQ.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		030FB1FE23469BD0000EBC3D /* ProjectQs */ = {
 			isa = PBXGroup;
 			children = (
-				FA660390234BE25C00BE2BA6 /* expersionQs.c */,
-				030FB1F723469BBA000EBC3D /* datatypesQs.c */,
+				FA660390234BE25C00BE2BA6 /* expressionsQ.c */,
+				030FB1F723469BBA000EBC3D /* datatypesQ.c */,
 			);
 			path = ProjectQs;
 			sourceTree = "<group>";
@@ -159,11 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5ADEFC2334287B0094EFDA /* main.c in Sources */,
-				FA660391234BE25C00BE2BA6 /* expersionQs.c in Sources */,
+				FA660391234BE25C00BE2BA6 /* expressionsQ.c in Sources */,
 				030FB1FB23469BBA000EBC3D /* structQs.c in Sources */,
 				CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */,
 				CA88991A23357D5D003938F9 /* githubQs.c in Sources */,
-				030FB1FC23469BBA000EBC3D /* datatypesQs.c in Sources */,
+				030FB1FC23469BBA000EBC3D /* datatypesQ.c in Sources */,
 				030FB1FD23469BBA000EBC3D /* productOwnerQs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

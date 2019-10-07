@@ -6,7 +6,8 @@
 //  Copyright © 2019 Memon, Suha. All rights reserved.
 //
 #include <stdio.h>
-int expressionQ(void){
+int score = 0;
+int expressionsQ(void){
     
     char answer1;
     //The question
@@ -23,6 +24,7 @@ int expressionQ(void){
         case 'A':
         case 'a':
             puts("Correct");
+            score++;
             break;
         case 'B':
         case 'b':
@@ -48,6 +50,7 @@ int expressionQ(void){
         case 'A':
         case 'a':
             puts("Correct");
+            score++;
             break;
         case 'B':
         case 'b':
@@ -76,11 +79,11 @@ int expressionQ(void){
         case 'B':
         case 'b':
             puts("Correct");
+            score++;
             break;
         default:
             puts("You responded with an inappropriate character");
     }
     printf("\n");
-    
-    return 0;
+    return score;
 }
