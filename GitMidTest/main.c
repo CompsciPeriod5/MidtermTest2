@@ -36,11 +36,11 @@ int main() {
             printf(" |                MENU                 |  \n");
             printf("----------------------------------------- \n");
             printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [2] Binary                            |\n");
-            printf("| [3] Random Logic                      |\n");
-            printf("| [4] GitHub                            |\n");
-            printf("| [5] Structures                        |\n");
-            printf("| [6] Expressions                       |\n");
+            printf("| [2] Binary                            %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [3] Random Logic                      %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [4] GitHub                            %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [5] Structures                        %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [6] Expressions                       %d out of %d|\n", dTypes.score, dTypes.questions);
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
@@ -58,10 +58,10 @@ int main() {
                     dTypes = qDriver(1, 2); //defaulted to 1, change according to # of q's
                     break;
                 case 2:
-                    dTypes = qDriver(2, 1);
+                    dTypes = qDriver(2, 3);
                     break;
                 case 3:
-                    dTypes = qDriver(3, 1);
+                    dTypes = qDriver(3, 3);
                     break;
                 case 4:
                     dTypes = qDriver(4, 1);
@@ -70,7 +70,7 @@ int main() {
                     dTypes = qDriver(5, 1);
                     break;
                 case 6:
-                    dTypes = qDriver(6, 1);
+                    dTypes = qDriver(6, 3);
                     break;
                 case 0:
                     printf("Quitting...\n");

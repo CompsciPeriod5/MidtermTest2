@@ -11,6 +11,8 @@ int logicQ(void){
     int score = 0;
     char ans1,ans2,ans3;
     printf("Please answer all questions in lowercase!\n");
+    
+    
     printf("The Expression is 3+=5\n");
     printf("A is the left term\n");
     printf("What is the new value for 'A' after the expression is run?\n");
@@ -23,7 +25,8 @@ int logicQ(void){
         printf("Incorrect. The correct answer is D\n");
     }
     
-    printf("Please answer all questions in lowercase!\n");
+        //----------------------------------
+    
     printf("The Expression is 7+=5\n");
     printf("A is the left term\n");
     printf("What is the new value for 'A' after the expression is run?\n");
@@ -36,7 +39,8 @@ int logicQ(void){
         printf("Incorrect. The correct answer is C\n");
     }
     
-    printf("Please answer all questions in lowercase!\n");
+    //----------------------------------
+    
     printf("The Expression is 12/=2\n");
     printf("A is the left term\n");
     printf("What is the new value for 'A' after the expression is run?\n");
