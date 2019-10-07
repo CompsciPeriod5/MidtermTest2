@@ -56,6 +56,7 @@
 		030FB1FE23469BD0000EBC3D /* ProjectQs */ = {
 			isa = PBXGroup;
 			children = (
+				FA660390234BE25C00BE2BA6 /* expersionQs.c */,
 				030FB1F723469BBA000EBC3D /* datatypesQs.c */,
 			);
 			path = ProjectQs;
@@ -68,7 +69,6 @@
 				CA88991923357D5D003938F9 /* githubQs.c */,
 				030FB1F923469BBA000EBC3D /* productOwnerQs.c */,
 				030FB1F823469BBA000EBC3D /* structQs.c */,
-				FA660390234BE25C00BE2BA6 /* expersionQs.c */,
 			);
 			path = FirstQuestions;
 			sourceTree = "<group>";

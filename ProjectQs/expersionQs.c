@@ -6,7 +6,7 @@
 //  Copyright © 2019 Memon, Suha. All rights reserved.
 //
 #include <stdio.h>
-int expressions(void){
+int expressionQ(void){
     
     char answer1;
     //The question
