@@ -28,7 +28,7 @@ struct values qDriver (int section) { //0 for math, 1 for binary, 2 for assignme
             returnedVal.score = logicQuestion();
             break;
         case 5:
-            returnedVal.score = datatypeQuestion();
+            returnedVal.score = datatypesQuestions();
             break;
     }
     returnedVal.questions = 1;

@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Questions.h"
 #include "questionDriver.h"
 
 int main() {
@@ -28,19 +27,19 @@ int main() {
             printf("----------------------------------------- \n");
             printf(" |                MENU                 |  \n");
             printf("----------------------------------------- \n");
-            printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [2] Binary                            |\n");
-            printf("| [3] Operators                         |\n");
-            printf("| [4] Random Logic                      |\n");
-            printf("| [5] Comparisons                       |\n");
+            printf("| [0] Math            %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [1] Binary                            |\n");
+            printf("| [2] Assignment                        |\n");
+            printf("| [3] Expressions                       |\n");
+            printf("| [4] Logic and Negation                |\n");
+            printf("| [5] Datatypes                         |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
-            printf("|                                       |\n");
-            printf("| [0] Exit                              |\n");
+            printf("| [99] Exit                              |\n");
             printf("|                                       |\n");
             printf("----------------------------------------- \n");
             printf("\n\n");
@@ -50,18 +49,25 @@ int main() {
             scanf("%d", &choice);
             
             switch (choice) {
+                case 0:
+                    dTypes = qDriver(0);
+                    break;
                 case 1:
-                    dTypes = qDriver(5);
+                    dTypes = qDriver(1);
                     break;
                 case 2:
+                    dTypes = qDriver(2);
                     break;
                 case 3:
+                    dTypes = qDriver(3);
                     break;
                 case 4:
+                    dTypes = qDriver(4);
                     break;
                 case 5:
+                    dTypes = qDriver(5);
                     break;
-                case 0:
+                case 99:
                     printf("Quitting...\n");
                     return 0;
                 default:
