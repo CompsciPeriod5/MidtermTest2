@@ -33,7 +33,7 @@ int main() {
             printf("| [3] Random Logic                      |\n");
             printf("| [4] GitHub                            |\n");
             printf("| [5] Structures                        |\n");
-            printf("| [6] Logic                             |\n");
+            printf("| [6] Expressions                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
