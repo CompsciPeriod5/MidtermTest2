@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 int logicQ(void){
+    int score = 0;
     char ans1,ans2,ans3;
     printf("Please answer all questions in lowercase!\n");
     printf("The Expression is 3+=5\n");
@@ -17,6 +18,7 @@ int logicQ(void){
     scanf("%c",&ans1);
     if(ans1 == 'd'){
         printf("Correct!\n");
+        score++;
     } else{
         printf("Incorrect. The correct answer is D\n");
     }
@@ -29,6 +31,7 @@ int logicQ(void){
     scanf("%c",&ans2);
     if(ans2 == 'c'){
         printf("Correct! \n");
+        score++;
     } else{
         printf("Incorrect. The correct answer is C\n");
     }
@@ -41,6 +44,7 @@ int logicQ(void){
     scanf("%c",&ans3);
     if(ans3 == 'b'){
         printf("Correct!\n");
+        score++;
     } else{
         printf("Incorrect. The correct answer is D\n");
     }
