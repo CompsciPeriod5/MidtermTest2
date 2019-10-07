@@ -10,12 +10,11 @@
 #define questionDriver_h
 
 #include <stdio.h>
-#include "questions.h"
 
 struct values {
     int score, questions;
 }; //for feedback
 
-struct values qDriver (int section);
+struct values qDriver (int section, int questions);
 
 #endif /* questionDriver_h */
