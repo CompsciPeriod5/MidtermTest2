@@ -12,8 +12,13 @@
 int datatypesQ(void);
 //void cfop(void);
 //void cfop2(void);
-int structQ(void);
+int structuresQ(void);
 int githubQ(void);
 int loopQ(void);
-
+int comparisonsQ(void);
+int binaryQ(void);
+int assignmentQ(void);
+int expressionQ(void);
+int logicQ(void);
+int operatorsQ(void);
 #endif /* Questions_h */
