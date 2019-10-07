@@ -6,14 +6,13 @@
 //  Copyright © 2019 Rosen, Aidan. All rights reserved.
 //
 
-#include "structures.h"
-#include <stdlib.h>
-#include <time.h>
-void questionOne(void){
-    
+#include "githubQs.h"
+
+int githubQ(void){
     //printf("A. Creating an account \nB. Adding an existing remote \nC. Pushing \nD. Commiting\n\n");
     //^ changing to random question arrangement 
     char* bullets [4]; //establishes ABCD bullets to print
+    
     bullets[0] =  "A";
     bullets[1] =  "B";
     bullets[2] =  "C";
@@ -21,7 +20,7 @@ void questionOne(void){
     int wrongs [3] = {0,1,2};
     int wrongWrongs [3] = {0,1,2};
     g.entrySize = 2;
-    srand(time(0));
+    srand((int)time(0));
     g.i = 0;
     for (g.i = 0; g.i < 3; g.i ++){
         g.entry = rand() % (g.entrySize + 1 - 0) + 0;
@@ -85,4 +84,5 @@ void questionOne(void){
         printf("Your score is still: %d\n\n", g.score);
         
     }
+    return g.score;
 }

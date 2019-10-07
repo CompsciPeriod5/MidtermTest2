@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include "questions.h"
 #include "questionDriver.h"
 
 int main() {
@@ -27,19 +28,19 @@ int main() {
             printf("----------------------------------------- \n");
             printf(" |                MENU                 |  \n");
             printf("----------------------------------------- \n");
-            printf("| [0] Math            %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [1] Binary                            |\n");
-            printf("| [2] Assignment                        |\n");
-            printf("| [3] Expressions                       |\n");
-            printf("| [4] Logic and Negation                |\n");
-            printf("| [5] Datatypes                         |\n");
+            printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [2] Binary                            |\n");
+            printf("| [3] Operators                         |\n");
+            printf("| [4] Random Logic                      |\n");
+            printf("| [5] Comparisons                       |\n");
+            printf("| [6] GitHub                            |\n");
+            printf("| [7] Structures                        |\n");
+            printf("| [8] Loop                              |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
-            printf("|                                       |\n");
-            printf("|                                       |\n");
-            printf("| [99] Exit                              |\n");
+            printf("| [0] Exit                              |\n");
             printf("|                                       |\n");
             printf("----------------------------------------- \n");
             printf("\n\n");
@@ -53,7 +54,7 @@ int main() {
                     dTypes = qDriver(0);
                     break;
                 case 1:
-                    dTypes = qDriver(1);
+                    dTypes = qDriver(5);
                     break;
                 case 2:
                     dTypes = qDriver(2);
@@ -67,7 +68,16 @@ int main() {
                 case 5:
                     dTypes = qDriver(5);
                     break;
-                case 99:
+                case 6:
+                    dTypes = qDriver(6);
+                    break;
+                case 7:
+                    dTypes = qDriver(7);
+                    break;
+                case 8:
+                    dTypes = qDriver(8);
+                    break;
+                case 0:
                     printf("Quitting...\n");
                     return 0;
                 default:

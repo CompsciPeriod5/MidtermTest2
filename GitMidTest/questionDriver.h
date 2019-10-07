@@ -10,6 +10,7 @@
 #define questionDriver_h
 
 #include <stdio.h>
+#include "questions.h"
 
 struct values {
     int score, questions;

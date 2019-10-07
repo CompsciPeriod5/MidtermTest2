@@ -13,23 +13,33 @@ struct values qDriver (int section) { //0 for math, 1 for binary, 2 for assignme
     struct values returnedVal;
     switch (section) {
         case 0:
-            returnedVal.score = mathQuestion();
+            //returnedVal.score = mathQuestion();
             break;
         case 1:
-            returnedVal.score = binaryQuestion();
+           // returnedVal.score = binaryQuestion();
             break;
         case 2:
-            returnedVal.score = assignmentQuestion();
+           // returnedVal.score = assignmentQuestion();
             break;
         case 3:
-            returnedVal.score = expressionQuestion();
+            // returnedVal.score = expressionQuestion();
             break;
         case 4:
-            returnedVal.score = logicQuestion();
+            //returnedVal.score = logicQuestion();
             break;
         case 5:
-            returnedVal.score = datatypesQuestions();
+            returnedVal.score = datatypesQ();
             break;
+        case 6:
+            returnedVal.score = githubQ();
+            break;
+        case 7:
+            returnedVal.score = structQ();
+            break;
+        case 8:
+            returnedVal.score = loopQ();
+            break;
+
     }
     returnedVal.questions = 1;
     return returnedVal;

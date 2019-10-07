@@ -6,12 +6,15 @@
 //  Copyright © 2019 Rosen, Aidan. All rights reserved.
 //
 
-#ifndef structures_h
-#define structures_h
+#ifndef github_h
+#define github_h
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
+#include <math.h>
 
 struct numbers {
     char answer;
@@ -21,6 +24,8 @@ struct numbers {
     int entrySize; //reduces size of current array
     int right;
     int i; 
-} g;
+};
 
-#endif /* structures_h */
+struct numbers g;
+
+#endif /* github_h */
