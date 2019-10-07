@@ -7,9 +7,8 @@
 //
 
 #include "questionDriver.h"
-#include <stdio.h>
 
-struct values qDriver (int section) { 
+struct values qDriver (int section, int questions) {
     struct values returnedVal;
     switch (section) {
         case 1:
@@ -40,6 +39,6 @@ struct values qDriver (int section) {
             returnedVal.score = expressionsQ();
             break;
     }
-    returnedVal.questions = 1;
+    returnedVal.questions = questions;
     return returnedVal;
 }
