@@ -8,9 +8,8 @@
 
 #include <stdio.h>
 #include "questions.h"
-#include "askQuestion.h"
 
-int binaryQuestions(void){
+int binaryQ(void){
     
     char name[25];
     printf("Please enter your name: ");
