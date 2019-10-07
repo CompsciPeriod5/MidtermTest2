@@ -11,13 +11,8 @@
 
 int binaryQ(void){
     int score = 0;
-    char name[25];
-    printf("Please enter your name: ");
-    scanf("%s", name);
     
-    printf("\n Confirming,  your name is: %s",  name);
-    
-    printf("\n\n Hello %s! This is the Binary Multiple Choice Test.\n There are 3 questions, good luck!\n\n", name);
+    printf("\n\n Hello! This is the Binary Multiple Choice Test.\n There are 3 questions, good luck!\n\n");
     
     int input, endOrNo = 0, endOrNo2 = 0, endOrNo3 = 0, binaryAns1, input2, binaryAns2, input3, binaryAns3;
     
