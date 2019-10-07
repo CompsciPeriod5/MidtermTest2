@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				CA5ADEFB2334287B0094EFDA /* main.c */,
-				030FB1FA23469BBA000EBC3D /* questions.h */,
 				CD25EFAE2346A28100D639F7 /* questionDriver.c */,
+				030FB1FA23469BBA000EBC3D /* questions.h */,
 				CD25EFAD2346A28100D639F7 /* questionDriver.h */,
 			);
 			path = GitMidTest;
