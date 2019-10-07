@@ -54,7 +54,7 @@ int main() {
                     dTypes = qDriver(0);
                     break;
                 case 1:
-                    dTypes = qDriver(5);
+                    dTypes = qDriver(1);
                     break;
                 case 2:
                     dTypes = qDriver(2);
@@ -77,7 +77,7 @@ int main() {
                 case 8:
                     dTypes = qDriver(8);
                     break;
-                case 0:
+                case 99:
                     printf("Quitting...\n");
                     return 0;
                 default:
