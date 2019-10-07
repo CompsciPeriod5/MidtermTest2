@@ -11,7 +11,6 @@
 
 int binaryQ(void){
     int score = 0;
-    
     int input, endOrNo = 0, endOrNo2 = 0, endOrNo3 = 0, binaryAns1, input2, binaryAns2, input3, binaryAns3;
     
     while (endOrNo == 0) {
@@ -26,7 +25,6 @@ int binaryQ(void){
                     score++;
                     endOrNo = 1;
                     break;
-                    
                 default:
                     printf("Wrong\n");
             }
@@ -44,29 +42,27 @@ int binaryQ(void){
                     score++;
                     endOrNo2 = 1;
                     break;
-                                    
                 default:
                     printf("Wrong\n");
                         }
                     }
                 }
                                     
-                while (endOrNo3 == 0) {
-                    binaryAns3 = 0;
-                    printf("What numeral system is binary based on?\n[1] Roman\n[2] Base-2\n[3] Hex\n[4] 5G\n");
-                    while (binaryAns3 == 0) {
-                    scanf("%d", &input3);
-                    switch(input3) {
-                        case 2:
-                            binaryAns2 = 2;
-                            printf("Thank you for taking the test! Have a nice Day!\n");
-                            endOrNo3 = 1;
-                            score++;
-                            break;
-                                                    
-                        default:
-                            printf("Wrong\n");
-                            break;
+    while (endOrNo3 == 0) {
+        binaryAns3 = 0;
+        printf("What numeral system is binary based on?\n[1] Roman\n[2] Base-2\n[3] Hex\n[4] 5G\n");
+        while (binaryAns3 == 0) {
+        scanf("%d", &input3);
+        switch(input3) {
+            case 2:
+                binaryAns2 = 2;
+                printf("Thank you for taking the test! Have a nice Day!\n");
+                endOrNo3 = 1;
+                score++;
+                break;
+            default:
+                printf("Wrong\n");
+                break;
                                               }
                                            }
                                         }
