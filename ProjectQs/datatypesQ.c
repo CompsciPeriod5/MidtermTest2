@@ -9,9 +9,10 @@
 
 #include <unistd.h>
 #include <stdio.h>
-int score = 0;
+
 int datatypesQ()
 {
+    int score = 0;
     char answer1;
     printf("\n\n");
     printf("DATA TYPES QUESTIONS\n");

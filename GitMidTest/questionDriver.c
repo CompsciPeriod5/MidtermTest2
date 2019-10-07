@@ -36,6 +36,9 @@ struct values qDriver (int section) {
         case 8:
             returnedVal.score = loopQ();
             break;
+        case 9:
+            returnedVal.score = expressionsQ();
+            break;
     }
     returnedVal.questions = 1;
     return returnedVal;

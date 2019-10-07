@@ -18,7 +18,7 @@ int loopQ(void);
 int comparisonsQ(void);
 int binaryQ(void);
 int assignmentQ(void);
-int expressionQ(void);
+int expressionsQ(void);
 int logicQ(void);
 int operatorsQ(void);
 #endif /* Questions_h */

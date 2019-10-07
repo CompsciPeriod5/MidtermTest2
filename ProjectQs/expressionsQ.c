@@ -6,9 +6,9 @@
 //  Copyright © 2019 Memon, Suha. All rights reserved.
 //
 #include <stdio.h>
-int score = 0;
+
 int expressionsQ(void){
-    
+    int score = 0;
     char answer1;
     //The question
     puts("If A = 5 and B = 3");
