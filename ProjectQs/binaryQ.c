@@ -10,7 +10,7 @@
 #include "questions.h"
 
 int binaryQ(void){
-    
+    int score = 0;
     char name[25];
     printf("Please enter your name: ");
     scanf("%s", name);
@@ -30,6 +30,7 @@ int binaryQ(void){
                 case 1:
                     binaryAns1 = 1;
                     printf("Correct! Loading Next Question.\n");
+                    score++;
                     endOrNo = 1;
                     
                 default:
@@ -44,6 +45,7 @@ int binaryQ(void){
                                 case 3:
                                     binaryAns2 = 3;
                                     printf("Correct! Loading Next Question.\n");
+                                    score++;
                                     endOrNo2 = 1;
                                     
                                 default:
@@ -59,6 +61,7 @@ int binaryQ(void){
                                                     binaryAns2 = 2;
                                                     printf("Thank you for taking the test! Have a nice Day!\n");
                                                     endOrNo3 = 1;
+                                                    score++;
                                                     return 0;
                                                     
                                                 default:
@@ -73,5 +76,5 @@ int binaryQ(void){
             }
         }
     }
-    return 0;
+    return score;
 }
