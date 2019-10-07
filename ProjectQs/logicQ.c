@@ -1,9 +1,9 @@
 //
-//  operatorRLQuestions.c
-//  MidTermP5
+//  logicQ.c
+//  GitMidTest
 //
 //  Created by Marwah, Tanmay on 10/7/19.
-//  Copyright © 2019 Hayes, Michael. All rights reserved.
+//  Copyright © 2019 Rosen, Aidan. All rights reserved.
 //
 
 #include <stdio.h>
