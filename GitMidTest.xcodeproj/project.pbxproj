@@ -13,6 +13,7 @@
 		CA5ADEFC2334287B0094EFDA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA5ADEFB2334287B0094EFDA /* main.c */; };
 		CA88991A23357D5D003938F9 /* githubQs.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88991923357D5D003938F9 /* githubQs.c */; };
 		CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */ = {isa = PBXBuildFile; fileRef = CD25EFAE2346A28100D639F7 /* questionDriver.c */; };
+		FA660391234BE25C00BE2BA6 /* expersionQs.c in Sources */ = {isa = PBXBuildFile; fileRef = FA660390234BE25C00BE2BA6 /* expersionQs.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		CA88991923357D5D003938F9 /* githubQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = githubQs.c; sourceTree = "<group>"; };
 		CD25EFAD2346A28100D639F7 /* questionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = questionDriver.h; sourceTree = "<group>"; };
 		CD25EFAE2346A28100D639F7 /* questionDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = questionDriver.c; sourceTree = "<group>"; };
+		FA660390234BE25C00BE2BA6 /* expersionQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = expersionQs.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CA88991923357D5D003938F9 /* githubQs.c */,
 				030FB1F923469BBA000EBC3D /* productOwnerQs.c */,
 				030FB1F823469BBA000EBC3D /* structQs.c */,
+				FA660390234BE25C00BE2BA6 /* expersionQs.c */,
 			);
 			path = FirstQuestions;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5ADEFC2334287B0094EFDA /* main.c in Sources */,
+				FA660391234BE25C00BE2BA6 /* expersionQs.c in Sources */,
 				030FB1FB23469BBA000EBC3D /* structQs.c in Sources */,
 				CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */,
 				CA88991A23357D5D003938F9 /* githubQs.c in Sources */,
