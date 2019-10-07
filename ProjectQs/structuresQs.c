@@ -8,10 +8,10 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int structQ()
+int structuresQ()
 {
+    int score = 0;
     char answer;
-    int right = 0;
     //The question
     printf("\n\n");
     printf("STRUCTURE QUESTION\n");
@@ -35,11 +35,11 @@ int structQ()
         case 'B':
         case 'b':
             puts("Very good, you are correct!!");
-            right = 1;
+            score++;;
             break;
         default:
            puts("You responded with an inappropriate number");
     }
     usleep(1000000);
-    return right;
+    return score;
 }

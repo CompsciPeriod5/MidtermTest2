@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030FB1FB23469BBA000EBC3D /* structQs.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F823469BBA000EBC3D /* structQs.c */; };
+		030FB1FB23469BBA000EBC3D /* structuresQs.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F823469BBA000EBC3D /* structuresQs.c */; };
 		030FB1FC23469BBA000EBC3D /* datatypesQ.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F723469BBA000EBC3D /* datatypesQ.c */; };
 		030FB1FD23469BBA000EBC3D /* productOwnerQs.c in Sources */ = {isa = PBXBuildFile; fileRef = 030FB1F923469BBA000EBC3D /* productOwnerQs.c */; };
 		CA5ADEFC2334287B0094EFDA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA5ADEFB2334287B0094EFDA /* main.c */; };
-		CA88991A23357D5D003938F9 /* githubQs.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88991923357D5D003938F9 /* githubQs.c */; };
+		CA88991A23357D5D003938F9 /* githubQ.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88991923357D5D003938F9 /* githubQ.c */; };
 		CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */ = {isa = PBXBuildFile; fileRef = CD25EFAE2346A28100D639F7 /* questionDriver.c */; };
 		FA660391234BE25C00BE2BA6 /* expressionsQ.c in Sources */ = {isa = PBXBuildFile; fileRef = FA660390234BE25C00BE2BA6 /* expressionsQ.c */; };
 /* End PBXBuildFile section */
@@ -30,13 +30,13 @@
 
 /* Begin PBXFileReference section */
 		030FB1F723469BBA000EBC3D /* datatypesQ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypesQ.c; sourceTree = "<group>"; };
-		030FB1F823469BBA000EBC3D /* structQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structQs.c; sourceTree = "<group>"; };
+		030FB1F823469BBA000EBC3D /* structuresQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structuresQs.c; sourceTree = "<group>"; };
 		030FB1F923469BBA000EBC3D /* productOwnerQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productOwnerQs.c; sourceTree = "<group>"; };
 		030FB1FA23469BBA000EBC3D /* questions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = questions.h; sourceTree = "<group>"; };
 		CA2E35A82339704300DBB0BE /* githubQs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = githubQs.h; sourceTree = "<group>"; };
 		CA5ADEF82334287B0094EFDA /* GitMidTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitMidTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5ADEFB2334287B0094EFDA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		CA88991923357D5D003938F9 /* githubQs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = githubQs.c; sourceTree = "<group>"; };
+		CA88991923357D5D003938F9 /* githubQ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = githubQ.c; sourceTree = "<group>"; };
 		CD25EFAD2346A28100D639F7 /* questionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = questionDriver.h; sourceTree = "<group>"; };
 		CD25EFAE2346A28100D639F7 /* questionDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = questionDriver.c; sourceTree = "<group>"; };
 		FA660390234BE25C00BE2BA6 /* expressionsQ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = expressionsQ.c; sourceTree = "<group>"; };
@@ -56,8 +56,11 @@
 		030FB1FE23469BD0000EBC3D /* ProjectQs */ = {
 			isa = PBXGroup;
 			children = (
+				CA88991923357D5D003938F9 /* githubQ.c */,
 				FA660390234BE25C00BE2BA6 /* expressionsQ.c */,
 				030FB1F723469BBA000EBC3D /* datatypesQ.c */,
+				030FB1F823469BBA000EBC3D /* structuresQs.c */,
+				CA2E35A82339704300DBB0BE /* githubQs.h */,
 			);
 			path = ProjectQs;
 			sourceTree = "<group>";
@@ -65,10 +68,7 @@
 		030FB2012346A624000EBC3D /* FirstQuestions */ = {
 			isa = PBXGroup;
 			children = (
-				CA2E35A82339704300DBB0BE /* githubQs.h */,
-				CA88991923357D5D003938F9 /* githubQs.c */,
 				030FB1F923469BBA000EBC3D /* productOwnerQs.c */,
-				030FB1F823469BBA000EBC3D /* structQs.c */,
 			);
 			path = FirstQuestions;
 			sourceTree = "<group>";
@@ -160,9 +160,9 @@
 			files = (
 				CA5ADEFC2334287B0094EFDA /* main.c in Sources */,
 				FA660391234BE25C00BE2BA6 /* expressionsQ.c in Sources */,
-				030FB1FB23469BBA000EBC3D /* structQs.c in Sources */,
+				030FB1FB23469BBA000EBC3D /* structuresQs.c in Sources */,
 				CD25EFAF2346A28100D639F7 /* questionDriver.c in Sources */,
-				CA88991A23357D5D003938F9 /* githubQs.c in Sources */,
+				CA88991A23357D5D003938F9 /* githubQ.c in Sources */,
 				030FB1FC23469BBA000EBC3D /* datatypesQ.c in Sources */,
 				030FB1FD23469BBA000EBC3D /* productOwnerQs.c in Sources */,
 			);
