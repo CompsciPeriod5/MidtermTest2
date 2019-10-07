@@ -23,7 +23,8 @@ struct numbers {
     int entry;
     int entrySize; //reduces size of current array
     int right;
-    int i; 
+    int i;
+    int grade; 
 };
 
 struct numbers g;

@@ -75,6 +75,8 @@ int githubQ(void){
         
         g.score += 1;
         
+        g.grade = 1; //sets the variable to "true" numerically
+        
         printf("Your score is now: %d\n\n", g.score);
         
     } else {
@@ -82,6 +84,8 @@ int githubQ(void){
         printf("W R O N G \n");
         
         printf("Your score is still: %d\n\n", g.score);
+        
+        g.grade = 0; //sets the variable to "true" numerically
         
     }
     return g.score;
