@@ -32,6 +32,7 @@ int binaryQ(void){
                     printf("Correct! Loading Next Question.\n");
                     score++;
                     endOrNo = 1;
+                    break;
                     
                 default:
                     printf("Wrong\n");
@@ -47,6 +48,7 @@ int binaryQ(void){
                                     printf("Correct! Loading Next Question.\n");
                                     score++;
                                     endOrNo2 = 1;
+                                    break;
                                     
                                 default:
                                     printf("Wrong\n");
@@ -62,7 +64,7 @@ int binaryQ(void){
                                                     printf("Thank you for taking the test! Have a nice Day!\n");
                                                     endOrNo3 = 1;
                                                     score++;
-                                                    return 0;
+                                                    break;
                                                     
                                                 default:
                                                     printf("Wrong\n");
