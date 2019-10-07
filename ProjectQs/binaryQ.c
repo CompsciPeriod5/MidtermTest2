@@ -21,7 +21,7 @@ int binaryQ(void){
             switch(input) {
                 case 1:
                     binaryAns1 = 1;
-                    printf("Correct! Loading Next Question.\n");
+                    printf("Correct!\n");
                     score++;
                     endOrNo = 1;
                     break;
@@ -38,7 +38,7 @@ int binaryQ(void){
             switch(input2) {
                 case 3:
                     binaryAns2 = 3;
-                    printf("Correct! Loading Next Question.\n");
+                    printf("Correct!\n");
                     score++;
                     endOrNo2 = 1;
                     break;
@@ -56,7 +56,6 @@ int binaryQ(void){
         switch(input3) {
             case 2:
                 binaryAns2 = 2;
-                printf("Thank you for taking the test! Have a nice Day!\n");
                 endOrNo3 = 1;
                 score++;
                 break;
