@@ -28,12 +28,9 @@ int datatypesQ()
 
     if (answer1 == 'C' || answer1 == 'c')
     {
-        //Outputs the results if correct
-        printf("\nCorrect! :)\n");
         score++;
     }else{
-        //Output result for wrong answer
-        printf("\nIncorrect :(\n");
+        score = score;
     }
     usleep(1000000);
     printf("\n");
@@ -51,11 +48,10 @@ int datatypesQ()
     if (answer2 == 'A' || answer2 == 'a' )
     {
         //Outputs the result if correct
-        printf("\nCorrect! :)\n");
         score++;
     }else{
         //Output result for wrong answer
-        printf("\nIncorrect :(\n");
+        score = score;
     }
     return score;
 }

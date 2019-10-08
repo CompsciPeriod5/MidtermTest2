@@ -56,19 +56,19 @@ int main() {
                     dTypes = qDriver(1, 2); //defaulted to 1, change according to # of q's
                     break;
                 case 2:
-                    dTypes = qDriver(2, 3);
+                    bi = qDriver(2, 3);
                     break;
                 case 3:
-                    dTypes = qDriver(3, 3);
+                    rand = qDriver(3, 3);
                     break;
                 case 4:
-                    dTypes = qDriver(4, 1);
+                    git = qDriver(4, 1);
                     break;
                 case 5:
-                    dTypes = qDriver(5, 1);
+                    struc = qDriver(5, 1);
                     break;
                 case 6:
-                    dTypes = qDriver(6, 3);
+                    exp = qDriver(6, 3);
                     break;
                 case 0:
                     printf("Quitting...\n");
