@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include "unistd.h"
 #include "questions.h"
 #include "questionDriver.h"
 
@@ -16,6 +17,7 @@ int main() {
     void prepareConsole(void);
     void intromessage(void);
     int choice;
+    int totalscore;
     struct values dTypes; dTypes.score = 0; dTypes.questions = 0; //data types score and questions
     struct values bi; bi.score = 0; bi.questions = 0;
     struct values rand; rand.score = 0; rand.questions = 0;
@@ -71,6 +73,9 @@ int main() {
                     exp = qDriver(6, 3);
                     break;
                 case 0:
+                    totalscore = dTypes.score + bi.score + rand.score + git.score + struc.score + exp.score;
+                    printf("YOUR TOTAL SCORE IS: %d out of 14\n\n", totalscore);
+                    usleep(1000000);
                     printf("Quitting...\n");
                     return 0;
                 default:
