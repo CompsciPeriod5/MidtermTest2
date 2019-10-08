@@ -18,12 +18,10 @@ int main() {
     int choice;
     struct values dTypes; dTypes.score = 0; dTypes.questions = 0; //data types score and questions
     struct values bi; bi.score = 0; bi.questions = 0;
-    struct values op; op.score = 0; op.questions = 0;
     struct values rand; rand.score = 0; rand.questions = 0;
-    struct values comp; comp.score = 0; comp.questions = 0;
     struct values git; git.score = 0; git.questions = 0;
     struct values struc; struc.score = 0; struc.questions = 0;
-    struct values loop; loop.score = 0; loop.questions = 0;
+    struct values exp; exp.score = 0; exp.questions = 0;
         // start with fresh console
         prepareConsole();
         
@@ -36,11 +34,11 @@ int main() {
             printf(" |                MENU                 |  \n");
             printf("----------------------------------------- \n");
             printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [2] Binary                            %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [3] Random Logic                      %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [4] GitHub                            %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [5] Structures                        %d out of %d|\n", dTypes.score, dTypes.questions);
-            printf("| [6] Expressions                       %d out of %d|\n", dTypes.score, dTypes.questions);
+            printf("| [2] Binary                            %d out of %d|\n", bi.score, bi.questions);
+            printf("| [3] Random Logic                      %d out of %d|\n", rand.score, rand.questions);
+            printf("| [4] GitHub                            %d out of %d|\n", git.score, git.questions);
+            printf("| [5] Structures                        %d out of %d|\n", struc.score, struc.questions);
+            printf("| [6] Expressions                       %d out of %d|\n", exp.score, exp.questions);
             printf("|                                       |\n");
             printf("|                                       |\n");
             printf("|                                       |\n");
