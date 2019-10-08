@@ -15,7 +15,8 @@ int datatypesQ()
     int score = 0;
     char answer1;
     printf("\n\n");
-    printf("DATA TYPES QUESTIONS\n");
+    printf("DATA TYPES QUESTIONS\n\n");
+    printf("QUESTION 1:\n");
     //Asks the questions and collects answer
     printf("What does int stand for and do in code?\n");
     printf("\n[A] Convicts a man of murder\n");
@@ -37,6 +38,7 @@ int datatypesQ()
     char answer2;
     
     //Input
+    printf("QUESTION 2:\n");
     printf("How many bytes of data does a float take up?\n");
     printf("\n[A] 4 bytes\n");
     printf("\n[B] 20 bytes\n");
@@ -53,6 +55,8 @@ int datatypesQ()
         //Output result for wrong answer
         score = score;
     }
+    usleep(1000000);
+    printf("\n");
     return score;
 }
 
