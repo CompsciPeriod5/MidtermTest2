@@ -63,7 +63,6 @@ int githubQ(void){
     printf("\n");
     scanf("%s", &g.answer);  //commenting to focus on printing in random order.
     g.answer = toupper(g.answer);
-    printf("\nYour answer was:\n%c\n", g.answer);
     
     g.right = strcmp(&g.answer, bullets[g.truth]);
    /* printf("\n\n %s \n", bullets[g.truth]);
