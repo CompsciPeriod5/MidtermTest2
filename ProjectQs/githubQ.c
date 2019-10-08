@@ -7,6 +7,7 @@
 //
 
 #include "githubQs.h"
+#include "unistd.h"
 
 int githubQ(void){
     //printf("A. Creating an account \nB. Adding an existing remote \nC. Pushing \nD. Commiting\n\n");
@@ -38,7 +39,9 @@ int githubQ(void){
     //printf("\n %d \n", g.truth); for monitoring randomly generated value
     int i = 0;
     int p = 0;
-    printf("\n\nWhat is the absolute first step in connecting a project to Github?\n\n");
+    printf("\n");
+    printf("GITHUB QUESTION: \n");
+    printf("\n\nWhat is the absolute first step in connecting a project to Github?\n");
     while (i < 4) {    //change i at some point.
         printf("\n%s ", bullets[i]); //prints current letter
         if (i == g.truth) {   //prints correct answer
@@ -61,6 +64,7 @@ int githubQ(void){
   
     //strcmp(&g.truth, bullets[i]); *///USE THIS TO COMPARE CURRENT LETTER PRINTING AND TRUE LETTER FOR ANSWER, USE THE LETTER THAT NEEDS TO BE TYPED IN < possibly no longer necessary
     printf("\n");
+    printf("Answer: ");
     scanf("%s", &g.answer);  //commenting to focus on printing in random order.
     g.answer = toupper(g.answer);
     
@@ -79,5 +83,6 @@ int githubQ(void){
         g.grade = 0; //sets the variable to "true" numerically
         
     }
+    usleep(1000000);
     return g.score;
 }
