@@ -18,6 +18,12 @@ int main() {
     void intromessage(void);
     int choice;
     int totalscore;
+    int flagdtypes = 0;
+    int flagbi = 0;
+    int flagrand = 0;
+    int flaggit = 0;
+    int flagstruc = 0 ;
+    int flagexp = 0;
     struct values dTypes; dTypes.score = 0; dTypes.questions = 0; //data types score and questions
     struct values bi; bi.score = 0; bi.questions = 0;
     struct values rand; rand.score = 0; rand.questions = 0;
@@ -55,7 +61,12 @@ int main() {
             
             switch (choice) { //remember, in the question driver, you need to have the section number first (outlined in the driver file) and the number of questions
                 case 1:
+                    if (flagdtypes == 1) {
+                        printf("Sorry, you cannot repeat that question\n");
+                        break;
+                    }
                     dTypes = qDriver(1, 2); //defaulted to 1, change according to # of q's
+                    flagdtypes = 1;
                     break;
                 case 2:
                     bi = qDriver(2, 3);
