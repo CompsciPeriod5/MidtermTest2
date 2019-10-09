@@ -62,26 +62,57 @@ int main() {
             switch (choice) { //remember, in the question driver, you need to have the section number first (outlined in the driver file) and the number of questions
                 case 1:
                     if (flagdtypes == 1) {
-                        printf("Sorry, you cannot repeat that question\n");
+                        printf("\nSorry, you cannot repeat questions\n");
+                        usleep(1000000);
                         break;
                     }
                     dTypes = qDriver(1, 2); //defaulted to 1, change according to # of q's
                     flagdtypes = 1;
                     break;
                 case 2:
+                    if (flagbi == 1) {
+                        printf("\nSorry, you cannot repeat questions\n");
+                        usleep(1000000);
+                        break;
+                    }
                     bi = qDriver(2, 3);
+                    flagbi = 1;
                     break;
                 case 3:
+                    if (flagrand == 1) {
+                        printf("\nSorry, you cannot repeat questions\n");
+                        usleep(1000000);
+                        break;
+                    }
                     rand = qDriver(3, 3);
+                    flagrand = 1;
                     break;
                 case 4:
+                    if (flaggit == 1) {
+                        printf("\nSorry, you cannot repeat questions\n");
+                        usleep(1000000);
+                        break;
+                    }
                     git = qDriver(4, 1);
+                    flaggit = 1;
                     break;
                 case 5:
+                    if (flagstruc == 1) {
+                        printf("\nSorry, you cannot repeat questions\n");
+                        usleep(1000000);
+                        break;
+                    }
                     struc = qDriver(5, 1);
+                    flagstruc = 1;
                     break;
                 case 6:
+                    if (flagexp == 1) {
+                        printf("\nSorry, you cannot repeat questions\n");
+                        usleep(1000000);
+                        break;
+                    }
                     exp = qDriver(6, 3);
+                    flagexp = 1;
                     break;
                 case 0:
                     totalscore = dTypes.score + bi.score + rand.score + git.score + struc.score + exp.score;
