@@ -60,12 +60,12 @@
 		030FB1FE23469BD0000EBC3D /* ProjectQs */ = {
 			isa = PBXGroup;
 			children = (
-				CA88991923357D5D003938F9 /* githubQ.c */,
-				FA660390234BE25C00BE2BA6 /* expressionsQ.c */,
 				030FB1F723469BBA000EBC3D /* datatypesQ.c */,
-				030FB1F823469BBA000EBC3D /* structuresQs.c */,
 				4DB5BA15234BE7B60064BF3E /* binaryQ.c */,
 				65EE36B9234BE950001556F6 /* logicQ.c */,
+				CA88991923357D5D003938F9 /* githubQ.c */,
+				030FB1F823469BBA000EBC3D /* structuresQs.c */,
+				FA660390234BE25C00BE2BA6 /* expressionsQ.c */,
 				CA2E35A82339704300DBB0BE /* githubQs.h */,
 			);
 			path = ProjectQs;
@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				CA5ADEFB2334287B0094EFDA /* main.c */,
-				CD25EFAE2346A28100D639F7 /* questionDriver.c */,
 				030FB1FA23469BBA000EBC3D /* questions.h */,
+				CD25EFAE2346A28100D639F7 /* questionDriver.c */,
 				CD25EFAD2346A28100D639F7 /* questionDriver.h */,
 			);
 			path = GitMidTest;

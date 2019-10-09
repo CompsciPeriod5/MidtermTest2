@@ -23,12 +23,10 @@ int expressionsQ(void){
     {
         case 'A':
         case 'a':
-            puts("Correct");
             score++;
             break;
         case 'B':
         case 'b':
-            puts("Incorrect");
             break;
         default:
             puts("You responded with an inappropriate character");
@@ -49,12 +47,10 @@ int expressionsQ(void){
     {
         case 'A':
         case 'a':
-            puts("Correct");
             score++;
             break;
         case 'B':
         case 'b':
-            puts("Incorect");
             break;
         default:
             puts("You responded with an inappropriate character");
@@ -74,11 +70,9 @@ int expressionsQ(void){
     {
         case 'A':
         case 'a':
-            puts("Incorrect");
             break;
         case 'B':
         case 'b':
-            puts("Correct");
             score++;
             break;
         default:

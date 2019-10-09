@@ -7,6 +7,7 @@
 //
 
 #include "questionDriver.h"
+#include "questions.h"
 
 struct values qDriver (int section, int questions) {
     struct values returnedVal;

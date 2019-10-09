@@ -122,13 +122,8 @@ int binaryQ(void){
 old code, it had issues with exiting the loop. additionally we donn't have letter answers like everyone else.
      
     int score = 0;
-    char name[25];
-    printf("Please enter your name: ");
-    scanf("%s", name);
     
-    printf("\n Confirming,  your name is: %s",  name);
-    
-    printf("\n\n Hello %s! This is the Binary Multiple Choice Test.\n There are 3 questions, good luck!\n\n", name);
+    printf("\n\nBINARY: \n\n");
     
     int endOrNo = 0, endOrNo2 = 0, endOrNo3 = 0, binaryAns1, binaryAns2, binaryAns3;
     char input, input2, input3;
@@ -144,6 +139,7 @@ old code, it had issues with exiting the loop. additionally we donn't have lette
                     printf("Correct! Loading Next Question.\n");
                     score++;
                     endOrNo = 1;
+                    break;
                     
                 default:
                     printf("Wrong\n");
@@ -159,6 +155,7 @@ old code, it had issues with exiting the loop. additionally we donn't have lette
                                     printf("Correct! Loading Next Question.\n");
                                     score++;
                                     endOrNo2 = 1;
+                                    break;
                                     
                                 default:
                                     printf("Wrong\n");
@@ -174,7 +171,7 @@ old code, it had issues with exiting the loop. additionally we donn't have lette
                                                     printf("Thank you for taking the test! Have a nice Day!\n");
                                                     endOrNo3 = 1;
                                                     score++;
-                                                    return 0;
+                                                    break;
                                                     
                                                 default:
                                                     printf("Wrong\n");

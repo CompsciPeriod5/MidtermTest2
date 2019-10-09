@@ -10,8 +10,6 @@
 #define Questions_h
 
 int datatypesQ(void);
-//void cfop(void);
-//void cfop2(void);
 int structuresQ(void);
 int githubQ(void);
 int binaryQ(void);
