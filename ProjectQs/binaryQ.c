@@ -12,7 +12,7 @@
 int binaryQ(void){
     int score = 0;
     
-    printf("\n\n Hello! This is the Binary Multiple Choice Test.\n There are 3 questions, good luck!\n\n");
+    printf("\n\nBINARY: \n\n");
     
     int input, endOrNo = 0, endOrNo2 = 0, endOrNo3 = 0, binaryAns1, input2, binaryAns2, input3, binaryAns3;
     
