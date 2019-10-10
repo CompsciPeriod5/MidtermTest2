@@ -38,21 +38,21 @@ int main() {
         
         while (1 == 1) {
             // menu starts here
-            printf("----------------------------------------- \n");
-            printf(" |                MENU                 |  \n");
-            printf("----------------------------------------- \n");
+            printf("----------------------------------------------------- \n");
+            printf(" |                       MENU                       |  \n");
+            printf("----------------------------------------------------- \n");
             printf("| [1] Fundamental Data Types            %d out of %d|\n", dTypes.score, dTypes.questions);
             printf("| [2] Binary                            %d out of %d|\n", bi.score, bi.questions);
             printf("| [3] Random Logic                      %d out of %d|\n", rand.score, rand.questions);
             printf("| [4] GitHub                            %d out of %d|\n", git.score, git.questions);
             printf("| [5] Structures                        %d out of %d|\n", struc.score, struc.questions);
             printf("| [6] Expressions                       %d out of %d|\n", exp.score, exp.questions);
-            printf("|                                       |\n");
-            printf("|                                       |\n");
-            printf("|                                       |\n");
-            printf("| [0] Exit                              |\n");
-            printf("|                                       |\n");
-            printf("-----------------------------------------\n");
+            printf("|                                                   |\n");
+            printf("|                                                   |\n");
+            printf("|                                                   |\n");
+            printf("| [0] Exit                                          |\n");
+            printf("|                                                   |\n");
+            printf("-----------------------------------------------------\n");
             printf("\n\n");
             
             // assigns choice of question to variable
